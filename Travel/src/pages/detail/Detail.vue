@@ -37,9 +37,9 @@ export default {
   methods: {
     sendInfo() {
       axios.get('/api/detail.json', {
-      params: {
-        id: this.$route.params.id
-      }
+        params: {
+          id: this.$route.params.id
+        }
     }).then((res) => {
       res = res.data
       if (res.ret) {

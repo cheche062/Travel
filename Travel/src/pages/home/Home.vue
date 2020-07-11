@@ -1,10 +1,14 @@
 <template>
   <div>
-    <home-header></home-header>
+    <!-- <home-header></home-header>
     <home-swiper :list="swiperList"></home-swiper>
     <home-icons :list="iconList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
-    <home-weekend :list="weekendList"></home-weekend>
+    <home-weekend :list="weekendList"></home-weekend> -->
+
+
+    home
+    <router-link to="/city">去城市</router-link>
   </div>
 </template>
 
